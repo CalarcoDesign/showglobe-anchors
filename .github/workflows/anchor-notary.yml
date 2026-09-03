@@ -2,13 +2,13 @@
 # that runs in the PUBLIC proof-home repository as
 # .github/workflows/anchor-notary.yml; the copy here is the source of
 # record, versioned with the platform. It holds no secret of any kind:
-# the platform endpoint is public and read-only, the calendars are
-# public, and the push uses the workflow's own automatic, per-run,
-# repository-scoped token, which is issued by the hosting platform for
-# the run and stored nowhere. If this workflow fails, the hosting
-# platform emails the repository owner: that notification is the free
-# second alarm the work order asks for, and it does not depend on the
-# platform being up.
+# the platform endpoint is public and read-only, the calendars and the
+# block explorer are public, and the push uses the workflow's own
+# automatic, per-run, repository-scoped token, which is issued by the
+# hosting platform for the run and stored nowhere. If this workflow
+# fails, the hosting platform emails the repository owner: that
+# notification is the free second alarm the work order asks for, and it
+# does not depend on the platform being up.
 #
 # Two runs a day on purpose: the second is idempotent (a day already
 # published is skipped, pending proofs are upgraded, the index is
@@ -18,6 +18,17 @@
 # days without repository activity; the notary's own daily commits keep
 # the repository active, and a quiet spell would surface as a missed
 # day on the platform side.
+#
+# After the pre-closeout audit: the actions are pinned by commit, not by
+# a movable tag; the run has a ceiling; the publish step runs even when
+# the notary exits non-zero, so a day's proof reaches the home whatever
+# else failed (the failure email still fires from the notary step);
+# the push rebases and retries so a concurrent push never costs a
+# repeated stamp; and only the environment directories are added. The
+# home's own append-only posture is branch protection on its default
+# branch (no force pushes, no deletions), which the founder sets once
+# and the workflow cannot; the automatic token can push to any branch,
+# and that protection is what bounds it.
 name: anchor-notary
 
 on:
@@ -36,9 +47,10 @@ concurrency:
 jobs:
   notarize:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 24
       - name: Notarize staging
@@ -46,15 +58,25 @@ jobs:
       # Production joins at P10C, when its day one is declared
       # (docs/OPERATIONS.md, the anchoring section):
       # - name: Notarize production
+      #   if: always()
       #   run: node notary/notary.mjs --environment production --platform https://showglobe-production.onrender.com
       - name: Publish
+        if: always()
         run: |
           git config user.name "anchor-notary"
           git config user.email "anchor-notary@users.noreply.github.com"
-          git add -A
+          for d in staging production; do
+            if [ -d "$d" ]; then git add -A -- "$d"; fi
+          done
           if git diff --cached --quiet; then
             echo "nothing new to publish"
             exit 0
           fi
           git commit -m "anchor: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            echo "push refused (attempt $attempt); rebasing on the remote and retrying"
+            git pull --rebase --autostash || exit 1
+            sleep 5
+          done
+          exit 1

@@ -1,12 +1,23 @@
 # Showglobe anchoring specification, showglobe-anchor/1
 
-Document version 1.0, 3 September 2026. Written under Packet 14
-(SG-PKT-14 v1.2). If this document is revised, superseded versions are
-preserved under docs/superseded/ and the change notes here are
-extended. A change to anything in sections 2 through 7 is a new
-specification identifier, never a revision of this one: proofs carry
-the identifier they were made under, and a verifier refuses one it
-does not implement.
+Document version 1.1, 3 September 2026. Written under Packet 14
+(SG-PKT-14 v1.2). Change notes: v1.1, after the packet's pre-closeout
+audit: section 8 lists every field the notary writes in a proof's
+timestamp object (the late label, the calendars that refused, the
+block's hash, merkle root, and time, and the verified attestations) and
+says what late means for the proven bound; the key file is named as
+the notary names it; section 9 records that a verifier takes the day,
+the environment, and the log id from the proof home's own path when it
+is not told them, and refuses a proof file as a key source; section 10
+says the development key signs only where the environment says local
+or test out loud. Nothing in sections 2 through 7 changed, so the
+identifier stays showglobe-anchor/1. v1.0 is preserved at
+docs/superseded/verifier_SPEC_v1.0.md. If this document is revised,
+superseded versions are preserved under docs/superseded/ and the change
+notes here are extended. A change to anything in sections 2 through 7
+is a new specification identifier, never a revision of this one:
+proofs carry the identifier they were made under, and a verifier
+refuses one it does not implement.
 
 This is the whole of what a stranger needs to recompute a day's root
 from a log export, check the operator's signature, and check the public
@@ -156,18 +167,40 @@ timestamp are needed; neither substitutes for the other.
 The proof file for a day is a JSON document carrying the record's
 eleven fields, stamp_digest, and a timestamp object:
 
-    timestamp.status          "pending" or "confirmed"
-    timestamp.ots_base64      the .ots bytes, base64
-    timestamp.submitted_at    when the digest was submitted
-    timestamp.calendars       the calendar servers that accepted it
-    timestamp.bitcoin.height  present once confirmed
-    timestamp.upgraded_at     when the confirmation was recorded
+    timestamp.status              "pending" or "confirmed"
+    timestamp.late                false when the day was stamped on its
+                                  own day by the notary's run, true when
+                                  a later run stamped a day the home
+                                  lacked; a label, not a signed fact
+    timestamp.ots_base64          the .ots bytes, base64
+    timestamp.submitted_at        when the digest was submitted
+    timestamp.calendars           the calendar servers that accepted it
+    timestamp.refused_calendars   the ones that did not, with the reason
+    timestamp.upgraded_at         when a confirmation was recorded
+    timestamp.bitcoin             present once confirmed: the height,
+                                  the block's merkle root in explorer
+                                  order, the block hash, and the block
+                                  time as the notary read them from a
+                                  public block explorer when it checked
+                                  the calendar's path against the header
+    timestamp.attestations        every calendar path the notary checked
+                                  against a header, each with its height
+                                  and merkle root
+
+Meaning of late, plainly: the proven bound is always the block that
+confirms the stamp, whatever the label says. A same-day stamp proves
+the record existed by a block mined that day or the next; a late stamp
+proves it existed by a later block, which is weaker and better than
+nothing. The label is a convenience for readers; a verifier derives the
+bound from the block's time (section 9).
 
 Proof files live in the public proof home under
 `<environment>/<log_id>/<day>.json`, beside the environment's public
-keys under `<environment>/keys/`. The home is for convenience and
-discoverability; the guarantee that nobody can quietly edit a proof
-comes from the block chain, not from the home.
+keys under `<environment>/keys/ed25519-<sixteen hex>.json` (the key id
+with its colon written as a hyphen, so the name is a plain file name).
+The home is for convenience and discoverability; the guarantee that
+nobody can quietly edit a proof comes from the block chain, not from
+the home.
 
 The canonical dump is a line-delimited file of leaves (section 2), one
 per line in ascending id order. It is produced by the platform's dump
@@ -199,8 +232,20 @@ verifier accepts the day when all of the following hold:
    time is then the proven existence bound. If it carries only pending
    attestations, the day is signed and its root is verified but its
    public timestamp is not yet confirmed.
-6. If the verifier was asked about a particular day or environment, the
-   proof names that day and that environment.
+6. If the verifier was asked about a particular day, environment, or
+   log, the proof names them. When it was not asked, it takes them from
+   the proof home's own path (`<environment>/<log_id>/<day>.json`) when
+   the file sits in that layout, so a proof filed under another day's
+   name is caught; a plainly named file carries no expectation, and the
+   verifier says so.
+7. The trusted key never comes from the proof file: a file carrying a
+   signature, a root, or a stamp digest is refused as a key source, and
+   a keys file whose key id does not name its public key is refused.
+8. The block header's time, when the caller supplies it or fetches it,
+   is the proven existence bound; the verifier reports it, warns when
+   it precedes the record's own computed_at by more than miners' clock
+   skew allows, and warns when the confirming block is more than a day
+   past the day itself (a late stamp).
 
 Any failure is a rejection with a reason. A proof for one day is never
 evidence for another: the day is under the signature and under the
@@ -208,8 +253,10 @@ stamp digest.
 
 ## 10. The known development key
 
-Local and test runs without a configured key sign with a published,
-non-secret key derived from the seed SHA-256("showglobe-anchor-dev-key-
-not-a-secret"). Its records are labeled by their key_id and are never
-to be trusted for anything; a hosted environment without a real key
-refuses to anchor rather than use it.
+Runs whose environment says local or test out loud, with no configured
+key, sign with a published, non-secret key derived from the seed
+SHA-256("showglobe-anchor-dev-key-not-a-secret"). Its records are
+labeled by their key_id and are never to be trusted for anything; a
+hosted environment without a real key, and any environment that does
+not say which it is, refuses to anchor rather than use it, and the
+notary refuses to stamp a staging or production day under it.
