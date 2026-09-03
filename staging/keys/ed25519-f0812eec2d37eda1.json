@@ -1,0 +1,9 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "algorithm": "ed25519",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "lane": "real",
+  "first_seen": "2026-09-03T22:45:36.276Z"
+}
