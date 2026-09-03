@@ -1,0 +1,60 @@
+# The Showglobe anchoring notary (Packet 14). This file is the workflow
+# that runs in the PUBLIC proof-home repository as
+# .github/workflows/anchor-notary.yml; the copy here is the source of
+# record, versioned with the platform. It holds no secret of any kind:
+# the platform endpoint is public and read-only, the calendars are
+# public, and the push uses the workflow's own automatic, per-run,
+# repository-scoped token, which is issued by the hosting platform for
+# the run and stored nowhere. If this workflow fails, the hosting
+# platform emails the repository owner: that notification is the free
+# second alarm the work order asks for, and it does not depend on the
+# platform being up.
+#
+# Two runs a day on purpose: the second is idempotent (a day already
+# published is skipped, pending proofs are upgraded, the index is
+# rewritten) and covers a dropped or delayed first run. Both are at
+# off-peak minutes because scheduled runs can be delayed at the top of
+# the hour. A scheduled workflow is disabled automatically after sixty
+# days without repository activity; the notary's own daily commits keep
+# the repository active, and a quiet spell would surface as a missed
+# day on the platform side.
+name: anchor-notary
+
+on:
+  schedule:
+    - cron: '17 12 * * *'
+    - cron: '17 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anchor-notary
+  cancel-in-progress: false
+
+jobs:
+  notarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Notarize staging
+        run: node notary/notary.mjs --environment staging --platform https://showglobe-staging.onrender.com
+      # Production joins at P10C, when its day one is declared
+      # (docs/OPERATIONS.md, the anchoring section):
+      # - name: Notarize production
+      #   run: node notary/notary.mjs --environment production --platform https://showglobe-production.onrender.com
+      - name: Publish
+        run: |
+          git config user.name "anchor-notary"
+          git config user.email "anchor-notary@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing new to publish"
+            exit 0
+          fi
+          git commit -m "anchor: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
