@@ -1,5 +1,9 @@
 # The anchoring notary and the proof home
 
+In Athens, the results of the Dionysia, the city's great drama festival, were cut into marble and set up where anyone could read them: the year, who paid for the chorus, which poets won, with new entries added in the years that followed. More than two thousand years later, the surviving fragments of that stone, which scholars call the Fasti, still say so. These proofs are inspired by it, for a logbook: one fingerprint a day, committed where no one, including us, can recarve it, so whoever comes after us can know that what they hold is what was written.
+
+Only fingerprints are published here, never the record itself; the record stays with whoever keeps the logbook.
+
 This directory is the source of record for the external side of the
 Showglobe daily anchor (Packet 14, SG-PKT-14). It is copied whole into
 the public proof-home repository; the platform side lives in
