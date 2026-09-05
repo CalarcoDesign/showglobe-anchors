@@ -1,7 +1,7 @@
 {
   "spec": "showglobe-anchor/1",
   "environment": "staging",
-  "generated_at": "2026-09-05T15:19:06.648Z",
+  "generated_at": "2026-09-05T20:27:18.469Z",
   "days": [
     {
       "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
@@ -36,8 +36,8 @@
       "leaf_count": 1,
       "root": "0330105fcadf576daeb45c9b2f3bbe4c7667539305d865f77b8fe3a17bcb3ceb",
       "key_id": "ed25519:f0812eec2d37eda1",
-      "status": "pending",
-      "height": null,
+      "status": "confirmed",
+      "height": 965633,
       "late": false,
       "submitted_at": "2026-09-05T15:19:04.932Z",
       "path": "staging/0545a68b-ecfc-4e69-8687-b4e8ea037762/2026-09-05.json"
