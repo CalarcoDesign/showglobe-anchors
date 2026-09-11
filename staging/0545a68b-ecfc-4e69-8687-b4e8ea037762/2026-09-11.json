@@ -1,0 +1,27 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-09-11",
+  "watermark": 2,
+  "leaf_count": 2,
+  "root": "be87adfc75a695a4150b332178298a3aef9f0a3923ec51f54bdc9e643b28ca1c",
+  "computed_at": "2026-09-11T15:20:54.778000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "e0c3aaaadaaefcb24954a78e026c1a9fc021d4ce176141e7d5d8d7c560963c34a65da24e312000ffdeb9afa64a76e5e487a6d589747cdf985ddc979e6b8ebc0c",
+  "stamp_digest": "885dc222b573bb37fa8513017caf93ea87da2454e827459a28fc4650fbc6e1c1",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIiF3CIrVzuzf6hRMBfK+T6ofaJFToJ0WaKPxGUPvG4cHwEE0LONXQexePo4SlllzkK5EI//AQDDlk7QIA8ykT3owXLhe5VgjxIJApURp6LYatSKSPuLouQ1Qu6czzHgKEHn7ry0A5qdzLCPEEaqQtdfAIlYB3XNzLrj0Ag9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb23/8AhUiZX80eXo3QjxIIwjyo3B0aSu641iQcnuhinsJ1tciUuVf/UtFdSAOIKVCPEgONRo4f8yhMOrgXaOGQunHAzQlaDO6ww16hQBtOGhZx0I8BCpW/iMn2Vml6j4oHGQmdtnCPEgRCt8uocZqrVUk0xWpbZO/A6/z/LChv1H/UDeyAN0ZCsI8QRqpC1z8AgLiiL1N2Fd/wCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZ//wCHe/vlu2Pu3fCPAQdo2fYT5s8+qgn+fhRfzQoQjxIPrBYUyrDNQjflp4K2d8tmBvtM6zAc9cvx7d6J4xMT6PCPAghmKH1ojMSiDTVAbdlKUwJIj8U48UMwzlsdBNAHy26x4I8CBsszJqqyNVibmlTTtQwrpJKbGqZjzaDrARrq1qIe726wjxBGqkLXLwCDx4Ib8qZ1ZaAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmfwEKi1rEhBMjuBkUZkfXMpegAI8SDEqVWWlsOovdR91jV4oeq8xBsPDaYNzFDEr7k3kQ5s8QjwIMDBrrFQOVIplsyDsAk0KDxqN8sncBh7geO/l7auYiWoCPEEaqQtdfAIr0mBH2DZiMIAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+    "submitted_at": "2026-09-11T16:33:57.775Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://b.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": []
+  }
+}
