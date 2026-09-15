@@ -12,9 +12,9 @@
   "signature": "bf59b393a84726f227b21805830af8a861dee4915cef740cf31ffd66b31035776733b57a451810b20f8338babb14dfd49233a59b514038475ca9e2ccc0d2fc0e",
   "stamp_digest": "60f4ce718fa51f43d0e405fe3dfb4d3ebd7daf861266cae6a2ed709dcc12f833",
   "timestamp": {
-    "status": "pending",
+    "status": "confirmed",
     "late": false,
-    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIYPTOcY+lH0PQ5AX+PftNPr19r4YSZsrmou1wncwS+DPwEB2pXOnAUdLl2YAzp2MashII//AIBAZkfDJ7Rl0I8BBjcTaVFOuXoehljr5QAvRWCPEgBq3eyfNgEJk+9XNdidkLkvC90eToPTUhCkACl/+9tikI8CChxC1r/vP10+h72odd5WpobT8m1Ne1AMArvxqRwHZTdgjwIH2ytrDou+mpAfAlIEOOy22gPtLJCVv7EHYlDfv6JejZCPEEaql63fAIAm0dIqFxxLUAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmf/8BAze+cfo3HyU72Q0V2omjfQCPEgdNfpFcKixf41WbPHWAxaNSU6GwS0TzsXZcAJq745JMEI8SDanW9o4FjoYy6EEEJgk4p6ZNR/AUqDgIw1yGCa/4klYgjwIDNtZvE1JndjNVUm8dlEejFREum/LXoITMGLiGeSlfimCPEEaql63/AIJLWDlnhwQVQAg9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb23/8BBWkz23vmqLrDPpkHTh/fdfCPAgYeTgyV+ifKjhEdCNOj1zQHj1qCV3WCVYAsg76zpX20gI8CBWOuEytAgnYKeTZUs1BHbaRKoKiP7JMwDdHz7L4R8yFgjwILbJqHDBe3w2sL1pwscUHSr+rqVtAH0X535NwW+bM18GCPAg0j5XDGXnfWJBNrC7+bomCVOlbWHjwhEvVKiDWg68smII8QRqqXre8AjdUpT+vCovkQCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbfAI2uX5iEen0r8I8BDhpqqLydMkwxoHoRln3XL8CPEgMLEGgpxadHvfUnYiB5s3GXp4FnV6cYafzGfxOIQzd58I8CDmzeP4ndcKDyjjrgl7NLDvMBJfZi62zJ+6bgAdySi+3gjwIP7qn8snCJjd/+DRpvHw8gRpuJbJcHVl4QCPGyjF0LuZCPEEaql63PAII+VI/vStk+IAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+    "ots_base64": "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",
     "submitted_at": "2026-09-15T17:05:35.589Z",
     "calendars": [
       "https://a.pool.opentimestamps.org",
@@ -22,6 +22,20 @@
       "https://a.pool.eternitywall.com",
       "https://ots.btc.catallaxy.com"
     ],
-    "refused_calendars": []
+    "refused_calendars": [],
+    "upgraded_at": "2026-09-15T21:26:47.711Z",
+    "bitcoin": {
+      "height": 967165,
+      "merkle_root": "a4d4915715b6964355d7f32c2d369347740cc4772b43464f00aa7b103874b0f5",
+      "block_hash": "000000000000000000005153848b044deccaedc25b235f0a05bc1475570fbadd",
+      "block_time": 1789493110
+    },
+    "attestations": [
+      {
+        "calendar": "https://bob.btc.calendar.opentimestamps.org",
+        "height": 967165,
+        "merkle_root": "a4d4915715b6964355d7f32c2d369347740cc4772b43464f00aa7b103874b0f5"
+      }
+    ]
   }
 }
