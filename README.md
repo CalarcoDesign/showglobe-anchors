@@ -23,7 +23,8 @@ against a real block header, and `confirmed` afterward.
 ## How to verify
 
 The verifier is a single file. It needs Node.js 18 or newer and nothing
-else: no dependencies, no network, and no access to the platform.
+else: no dependencies, no network unless you ask for it, and no access
+to the platform.
 
     node verifier/showglobe-verify.mjs \
       --proof staging/<log_id>/<day>.json \
