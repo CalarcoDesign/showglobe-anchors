@@ -1,0 +1,27 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-09-26",
+  "watermark": 3,
+  "leaf_count": 3,
+  "root": "d7962f3dce7dbdae206f3818b5345508cb7959628b3e272aeadfb6beb5947ff6",
+  "computed_at": "2026-09-26T16:29:02.058000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "aa7ec08b382b70c54370c2cb69f2c6ece344dd0102a1f9175a2b8c0c7f717b118b39369dab1e79a5c4d48c15a455336608c3effb0e5fed8f6ac98e7deb339f04",
+  "stamp_digest": "a154074ca98e7284afc209b840e7046c9945674f3389953ffe9d665e1d0df1fc",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIoVQHTKmOcoSvwgm4QOcEbJlFZ08ziZU//p1mXh0N8fzwED+m3KoYGHyI5BSSLd1xOcAI//AIJ67TVuS6EC4I8BBhQ5YXEp2SgVaiMZw6P92lCPEgS72pAS2PPIroKa2BCqnXvwLcnd4CJUMgSQOp9J8dy8gI8QRqt/LP8AiaprMDX8T9oACD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZ//wCFnhIl2bQpzBCPAQuobFBfpY+YzbdKnVG/6h+gjxIKp5/LA+zmOk6hrM/QPBH8kJgXREo42vOEnnLo/7O55GCPEEarfyz/AItXm5E04MqyUAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZ//wEGVUbgV7U2F2X91BKIh3xBsI8CALangG+lEZPDHDLEeaSZlssNOA6lH6CpTrqlOIi3ypzgjxIGiLsYGssk7H/aZ/xIrYxP+MaSf4nREZy74NtJQwTUXcCPAg1dUpmoAhfzjVliolNZNDEAvwoF3N9ZcRjUgGV+Eq4m0I8CB88RTD8osXrVk6XoQurViSsVSmip81U6Ijbw9qL9MHFQjxBGq38tHwCAumk3LHEmTnAIPf4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t8BBs/JbH85cixNjZdvAw6EzbCPEgyDJs0maZ+HRsjRFaUmXhyoitHp56tt+03LsTDasE/eUI8SCUMQdLftNu+C62pJJgW2QC7KeugYUd9UUR1UTzc2n7NAjxBGq38tDwCBo4yOF2BORaAIPf4w0u+QyOKShodHRwczovL2Zpbm5leS5jYWxlbmRhci5ldGVybml0eXdhbGwuY29t",
+    "submitted_at": "2026-09-26T16:29:05.294Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://b.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": []
+  }
+}
