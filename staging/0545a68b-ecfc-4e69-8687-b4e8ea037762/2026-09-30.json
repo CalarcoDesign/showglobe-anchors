@@ -1,0 +1,27 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-09-30",
+  "watermark": 45,
+  "leaf_count": 45,
+  "root": "cb4d40ab9666357026107d57dc5c807050180608aad369fd9660ec04465d7326",
+  "computed_at": "2026-09-30T18:01:39.843000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "176ef6f5ef177312e9ab50e8c527290c7d4fd03811b11ddd5ee86433f7241e9efdb03aaada493f7160ff15faa775e10199365d5d214e441c009e46ad5b7e670b",
+  "stamp_digest": "1bc3e930436e50187de958f1427cac62bb746d40ee3e4cac981d2964b82aa2ac",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIG8PpMENuUBh96VjxQnysYrt0bUDuPkysmB0pZLgqoqzwEE4OqhyEUgRQwip+27jRcbUI//AIENuouVN/WWsI8BARZKLeGjc0QTTAFsP0UZScCPEgLtyUgNzzh5BbrRecsQk2ypDRFZt6tVeqrMC9opYIHn8I8CCEd+09yQ97OBGtHeV6TQC5hH7arLnk5aXgJgIWoevOOAjwICjDyaGizYpSxkDPtpbw/Vdxigzt9md1/yNWYPAHljIyCPEEar1OhvAID8MdgO+ccNoAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmf/8BBhDHXhXuNRVjG6qXGTslnqCPEgJY5l14m7Mb+KxaECA/IIqNZKRrXVCfC47GiHVv113twI8CA7dSz+M0Ekx5sjIGY6RnVjdLGmSyIuUcWD6RsUsAmIcwjxBGq9TojwCAqpCxwPXLqWAIPf4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t//AQrQZIqHcyF/2GlIwm6XKquwjxIFGeu6O4SYx36je76IfL3vevKI0iGD8up9ktaYLgwcmaCPAgu60F2GPv3iI3uLNrp0ZTRWBFm2tJch1cK1glqV590EMI8CDEKRkUCqzwajNGfR3VXeC5l/Fybkb6Dt46+63J39VwdAjxBGq9TojwCLwo0I9cbBi0AIPf4w0u+QyOKShodHRwczovL2Zpbm5leS5jYWxlbmRhci5ldGVybml0eXdhbGwuY29t8AjJUdMj09KLXwjwEGqkXxJa+Dt+Z2k0bEI/IBgI8CBMRFGp02Y1vZc0NzJ3fU03LJtokF1ANLtO0RYiaK9rigjxIOMXYN5xdOTmunBOF02S7bT1ubzxCJX/7P6BakFzT6TQCPAgWuo4CQVhcZ+WnmytZdyIsoy/Svnf4eewg0u8q9nD0ggI8QRqvU6F8Aivimvosyi2FgCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+    "submitted_at": "2026-09-30T18:01:45.033Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://b.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": []
+  }
+}
