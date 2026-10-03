@@ -12,9 +12,9 @@
   "signature": "60e633a46de28d2bb3743f5748afb641b7077ddef2ce22f975995bab24b9a289b5bf0442742c7061e322c9eda32644c9d2de7ccba1a7e009c72ac3f30870e706",
   "stamp_digest": "4ba133e4680acea3264ace2025f4d36426a9cbc23201e8fefca3eb568bdef51a",
   "timestamp": {
-    "status": "pending",
+    "status": "confirmed",
     "late": false,
-    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIS6Ez5GgKzqMmSs4gJfTTZCapy8IyAej+/KPrVove9RrwEAecBlQzA+VUyXt9LNsfnOgI//AQRXb/Pa9QlXKeiLqaxRBEJgjxIObO/l2HKFS8Pp+QiL3BLzpS8bq+rNWLyg+1OAYyXVSECPAgW3qVJixq6pOcSOx5JvuWiwRHwYFTT0730+AHQguYW40I8CAl85d+50wwBiDH0kuevJt3jyYoNj6TVzwzdb0F0SQtMQjxBGrBLQPwCCiti/mPHqxBAIPf4w0u+QyOKShodHRwczovL2Zpbm5leS5jYWxlbmRhci5ldGVybml0eXdhbGwuY29t//AIfV5P6F6XZUMI8CB0tal3bmRyJ2P8V4VZB1LdM2Urdk8My6SkeptnldFIeQjwEGImv8alBblmRnINeL5RL4QI8CBaTWaznxORGjtsk83b02uBgV9/OjGXl6rf3A3eSxye8wjxIEQWrwYdX0O/hRvzWzwdHLuIFP88KhgITfAxqRJDKgL2CPEEasEtAfAIX7fXu3CcbjsAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmf/8Ai5dtrI79vyMQjwEJHhNLRFlFFnPMJl7WHaHQ4I8SCJOO8XExLLGzBwaUcpNyn/AmP11PhOkVLA5FMUbhwdTwjwIA+m28wK7ZumIsrpkGrh0Fu+YtCUj1NV7r9HHK5M/xTwCPEEasEtAPAIXo0Xd8vCUfQAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZ/AQ2I8X6gMEZMfPg9aq0npOhgjwIDisEY1kOlWmwM68RtfqbdwOLggzeJUj5wPjaZboHYpKCPEg+VGwS1+MgMl7/P97VA8INruC9vD/8ylWYf3XF4NqXlkI8QRqwS0D8Aieae3P09u2EACD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ==",
+    "ots_base64": "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",
     "submitted_at": "2026-10-03T16:27:48.327Z",
     "calendars": [
       "https://a.pool.opentimestamps.org",
@@ -22,6 +22,20 @@
       "https://a.pool.eternitywall.com",
       "https://ots.btc.catallaxy.com"
     ],
-    "refused_calendars": []
+    "refused_calendars": [],
+    "upgraded_at": "2026-10-03T21:23:50.051Z",
+    "bitcoin": {
+      "height": 969756,
+      "merkle_root": "c93058e88b1ee5b9942e63f580f6e6607b0f593e9ab42fc15adfdda91d272fbf",
+      "block_hash": "000000000000000000009feed9faf73f5184cb7acab3461a79e6ecd07cea4ad0",
+      "block_time": 1791057176
+    },
+    "attestations": [
+      {
+        "calendar": "https://alice.btc.calendar.opentimestamps.org",
+        "height": 969756,
+        "merkle_root": "c93058e88b1ee5b9942e63f580f6e6607b0f593e9ab42fc15adfdda91d272fbf"
+      }
+    ]
   }
 }
