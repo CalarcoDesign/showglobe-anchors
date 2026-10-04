@@ -12,9 +12,9 @@
   "signature": "5663f6ebb7b552668d1d3c7dd526c4edd51c11e158e4730376dbfece3df3e4fe2b6fc2e1d2407c2b3fec4886962e5d7e0899d29d05220a3dd3161d6e942e9400",
   "stamp_digest": "a55fa7c976d0c31707d0e146a7acf4b7901da9192b37ff8b5607ee83105c90e4",
   "timestamp": {
-    "status": "pending",
+    "status": "confirmed",
     "late": false,
-    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIpV+nyXbQwxcH0OFGp6z0t5AdqRkrN/+LVgfugxBckOTwEFApZ6BMSI/E8gg3m/CpnQII//AILb70D+r76x8I8BCF9kmoRXFOJWd2grLxkueKCPAgXw5S9E42yS8u+GuJHC/oQK1ok4x2Xg1zr327hmkpJ0UI8SD8wwXpZLuX+8M7G9+KAVhRHtGr92usoUrrjvi9t4+yjAjwIHiEl9w90DaiU8hbjjjtqRL1tIT2cWZSls/jDNElYZxmCPEEasKEhPAIO5+AJdcipCAAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmf/8Ag+B+1ezzOspQjwEGWtuXj0vQfCLSb7MXqKLMsI8SD9dQBH0SfHrjeQ4DVWloDe8wxrlb8KWJwmMOX5/FCxigjxIDYllp8dy2qOdOLpJJksejYqgdCEbM6P9BmU1K2+FbWBCPAgtx0tOW34k9oBTi7HQQ63AlPyn/9/zMBvXy3jIEoPh3AI8QRqwoSD8AgivNAKBsJP5wCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn//AQQa9Puyp/LVrJ1bfvwSNFMgjxIKni+321tugaoMpGIlCY0kZ4IiWc6z9yuaIMgdbfdpdwCPEEasKEhfAIuHeHB4neZEYAg9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb23wEFA6fceOcOEL2wow5sIpFwEI8SCP895KeKseap1KvIvf73UYTatDMiiOJRFhhTEdHizCjwjxIGYgRrND5D551TjDAxATHj/qRMGr0Ga7cYwid9oj3/rjCPEEasKEhfAI1uGPnizk4QsAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+    "ots_base64": "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",
     "submitted_at": "2026-10-04T16:53:25.327Z",
     "calendars": [
       "https://a.pool.opentimestamps.org",
@@ -22,6 +22,25 @@
       "https://a.pool.eternitywall.com",
       "https://ots.btc.catallaxy.com"
     ],
-    "refused_calendars": []
+    "refused_calendars": [],
+    "upgraded_at": "2026-10-04T21:35:11.417Z",
+    "bitcoin": {
+      "height": 969876,
+      "merkle_root": "970129be307fe5d82f3ab8a02356d53ec610365e3f5e66a8fb622f8a58ab7a23",
+      "block_hash": "000000000000000000012d19498c55fdb7b676947e449b3cdb17dcc63e214d14",
+      "block_time": 1791133260
+    },
+    "attestations": [
+      {
+        "calendar": "https://bob.btc.calendar.opentimestamps.org",
+        "height": 969876,
+        "merkle_root": "970129be307fe5d82f3ab8a02356d53ec610365e3f5e66a8fb622f8a58ab7a23"
+      },
+      {
+        "calendar": "https://alice.btc.calendar.opentimestamps.org",
+        "height": 969876,
+        "merkle_root": "970129be307fe5d82f3ab8a02356d53ec610365e3f5e66a8fb622f8a58ab7a23"
+      }
+    ]
   }
 }
