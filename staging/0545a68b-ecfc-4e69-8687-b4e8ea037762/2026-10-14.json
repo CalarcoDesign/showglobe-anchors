@@ -1,0 +1,27 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-10-14",
+  "watermark": 53,
+  "leaf_count": 53,
+  "root": "ee7ccac8365535888ec3de0e5f841addb8d298bff2e735a65323c5a4a97f3292",
+  "computed_at": "2026-10-14T00:07:27.962000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "f3df744605cd7c56bd9c78ff64e06518284fa2cb74b1d4ae5024d4811dc61860b66b17c36420a211e6a811ef7fe69d69b3a47fe098f0a894a86dfabe08b64004",
+  "stamp_digest": "38853d527daf2c7fac87fb97b013f9d49c32583f143fafe4c1a4443b212364b7",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIOIU9Un2vLH+sh/uXsBP51JwyWD8UP6/kwaREOyEjZLfwEOsfnJAexgm6ZSqNM9cH7VwI//AQeEs6E1liXJcv9XJIbspKSgjxIF0WRgHb2tsalXrJSgCSS3RgUAa8Ymqd8hFqBSGMZWZpCPEgCb48yFgK8CGNzjoYMHWJJgvD70tJiUrBHq49cyV35LII8CDVezMXmxb/AHIf3BtySLSDo3/NvK8haeZbU2LFtIZY4gjxBGrPuUHwCGslTKHSIbPRAIPf4w0u+QyOKShodHRwczovL2Zpbm5leS5jYWxlbmRhci5ldGVybml0eXdhbGwuY29t//AIlBLPBQhbjy4I8BD7V9glnW0ictYznzknHPqCCPEgS85fJITSpyHlzS2fMAZnp7vNrXcUT6dymg9Yk1bVa0oI8CBnL+Lfi2D6lNxqxGCLgPybHMcgVZuDrGaMDUvhv3/X5QjxBGrPuT/wCEFZqsI0fae3AIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmf/8AiyNYIq0kBmqQjxIOjFrhuqrlSSTCO+wKRgHXXYC9KEUKG1k7VlYcMxJ1U+CPEgZ1p3IN/HLiHtDIHaWxQ6nihkihN+jptIt+gAluNhZ6gI8BAa5k3ULYIWMQMfR6fQ+Kt6CPAgJO/8Isb7Nlm+hT1+lSvxEFUZLNwehgupUrqTjSe6q8II8QRqz7lA8AgyLjIXkLQB4ACD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZ/AQwiZdHzl1hibwXMgiebTJsgjwINhbu2Kax9ex6QHByH61bMyE3vJeQUI/DovrFxl3gAG9CPEg2KyCaslLhscKx5AadUox/hez4TDoY6Xbu+W8nXXfTiQI8QRqz7lB8AilIH5w8kKxZwCD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ==",
+    "submitted_at": "2026-10-14T17:17:53.666Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://b.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": []
+  }
+}
