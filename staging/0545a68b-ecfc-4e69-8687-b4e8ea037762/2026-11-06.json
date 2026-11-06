@@ -1,0 +1,31 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-11-06",
+  "watermark": 60,
+  "leaf_count": 60,
+  "root": "0b73221c0295965ccbb3de093e3164854607aae2274afc4a17405f9a23dd2385",
+  "computed_at": "2026-11-06T00:03:59.790000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "94facd038e320a65a3cac2ae6f13f7ce6945c86facaec6dc35bbaba0baa36e84c7158c8763a2d268ea189d7622226c0f2bade38d2908da2b338620b5c0b48209",
+  "stamp_digest": "6be696644e86cb425f19cae0d1807ede405e2333cd7417f61af6c79e446782dc",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIa+aWZE6Gy0JfGcrg0YB+3kBeIzPNdBf2GvbHnkRngtzwEHvkKJ9Y9jQ3Sp1kFkj6ywUI//AIDo1RyFOCGkUI8CDZZDzDvVU3DzM8k/ir+0Eeg2aEwIWEGopvPYVHh9hdLAjwIKcMZise2efbNon+OnEMRC4OqNnSKEhP/8UU43mKVOH8CPAQiisBmjHcD/9rzpyG8GnwGgjwIEPUvfLTufKR7hWrqZEKzIXI4m1Xdv0tzVQYLqJ4sWC4CPAgGn0CpzFa+nNqxJkAq5s43Gjplq4gGINmifZvwPHbP5UI8QRq7ipy8AgqFerZJuJKWgCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn//AQMmG7s6bHzkAvu7BvCY7hQgjwIFvH+foiczyb9pxSE/CPiPAX40RVSahfRxboHWHikfYdCPEgpUGgqRhNT2V/1YA9kwDnx47hRgwXyXYPCpJ2HAiN/i0I8CB+e9pmxSYvmxi3I3IV9fWl9v0BvMMas3gzoc1lb/BSmwjxBGruKnTwCLkhSnAImLtzAIPf4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t8BDGpBhatUqio4337mjJKoKjCPEgnCrT/IURphHxqtBBnuZ/AlcFPMi9t5X3PNGQIpcAHaYI8SCJGzjm2wGgUvvF6JJKlNtInzIXbUwR+VmgRTMviCIZ0wjxBGruKnPwCJxVGcUNr4H8AIPf4w0u+QyOKShodHRwczovL2Zpbm5leS5jYWxlbmRhci5ldGVybml0eXdhbGwuY29t",
+    "submitted_at": "2026-11-06T19:28:52.223Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": [
+      {
+        "calendar": "https://b.pool.opentimestamps.org",
+        "error": "POST https://b.pool.opentimestamps.org/digest: fetch failed"
+      }
+    ]
+  }
+}
