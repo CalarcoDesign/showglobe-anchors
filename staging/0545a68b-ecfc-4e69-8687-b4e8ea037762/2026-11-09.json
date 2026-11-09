@@ -1,0 +1,31 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-11-09",
+  "watermark": 60,
+  "leaf_count": 60,
+  "root": "0b73221c0295965ccbb3de093e3164854607aae2274afc4a17405f9a23dd2385",
+  "computed_at": "2026-11-09T00:03:59.953000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "a0a3050d8c6f80f5759933597eb2eb6cc2791f2ccaae9f2a772c39c47fe4cf9be937bf1e520a3f9db68baf933a0df11e22e4edcd6db3c559aceb6817ce2f670c",
+  "stamp_digest": "dc7dccdfafec4b2ca2ac5e10075176e840acdcc9e9421389512cc0d46cf4bb55",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEI3H3M36/sSyyirF4QB1F26ECs3MnpQhOJUSzA1Gz0u1XwEFQn3lpYdYOx2TCp131SKF4I//AQOtM47LXMmEFosXwoK23eIQjwILQTZNr5HAyJYzAr31jInDAkLWufD0Psrw3rHShRTeNYCPEgh2B51etSepO2IJwwp57Yb9RRh+DbSORSQ7xl6GGf9CQI8CCdatyHc9wANmWhxQzz+gKksLx5YDUg6gY2ibBMuqTu+AjxBGrySN/wCANEiss/gY9ZAIPf4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t//AIm59ViGkCWbYI8BACfTjnNtwdHQZMXqKcvPDHCPAg1VtcypkI8ao5rDgfYP+9rz2z3u1rAuqmbHIv7EqS8q0I8SDhvMMbGIliM79zZ5D/TPjyEC51sde8kAHl4Ek8LVXM9AjxBGrySNzwCFbv4n5kEl+YAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmfwEMRPDLVfSyZLSw7mUdhiwi8I8CBKAi2riJJVcPkuQX2OL4Wws2ktG/dVT/vq98gjdIF4rQjwIBAdnCRWj56mZqVk/T3pE+uH9a4uiIi7xq1CN7LuPsBMCPAg2UExz+/e/yXxjaQcTzsAS/KDBwe5jlkW5RMoRRlHRvsI8QRq8kje8Ag2NGhWjkqa+ACD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+    "submitted_at": "2026-11-09T22:27:43.508Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": [
+      {
+        "calendar": "https://b.pool.opentimestamps.org",
+        "error": "POST https://b.pool.opentimestamps.org/digest: fetch failed"
+      }
+    ]
+  }
+}
