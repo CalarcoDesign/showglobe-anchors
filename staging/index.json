@@ -1,7 +1,7 @@
 {
   "spec": "showglobe-anchor/1",
   "environment": "staging",
-  "generated_at": "2026-11-25T21:46:40.177Z",
+  "generated_at": "2026-11-26T01:48:31.355Z",
   "days": [
     {
       "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
@@ -1094,6 +1094,19 @@
       "late": false,
       "submitted_at": "2026-11-25T02:33:55.022Z",
       "path": "staging/0545a68b-ecfc-4e69-8687-b4e8ea037762/2026-11-25.json"
+    },
+    {
+      "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+      "day": "2026-11-26",
+      "watermark": 69,
+      "leaf_count": 69,
+      "root": "e0102e26512c5b5199f9c12730efb763c84981e9d1103a30707287af9bd44150",
+      "key_id": "ed25519:f0812eec2d37eda1",
+      "status": "pending",
+      "height": null,
+      "late": false,
+      "submitted_at": "2026-11-26T01:48:29.639Z",
+      "path": "staging/0545a68b-ecfc-4e69-8687-b4e8ea037762/2026-11-26.json"
     }
   ]
 }
