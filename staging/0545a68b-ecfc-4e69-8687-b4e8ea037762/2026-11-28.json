@@ -1,0 +1,27 @@
+{
+  "spec": "showglobe-anchor/1",
+  "environment": "staging",
+  "log_id": "0545a68b-ecfc-4e69-8687-b4e8ea037762",
+  "day": "2026-11-28",
+  "watermark": 69,
+  "leaf_count": 69,
+  "root": "e0102e26512c5b5199f9c12730efb763c84981e9d1103a30707287af9bd44150",
+  "computed_at": "2026-11-28T00:00:30.372000Z",
+  "public_key": "1f566b76824d67da6be5c79eabd267bfdc922593f7503f41d901f279e52d91b2",
+  "key_id": "ed25519:f0812eec2d37eda1",
+  "signature": "f45972ba8372956bef6f5c5175587863092f433a40caaaa748a6eed515552ad2ad1d97e09c03e415424151d7a7525ccd4d2f2281ded315bd93e66cd8b3f72002",
+  "stamp_digest": "d9f3a0939f392f9fd67db2dd44edfebf65de84b684b43b73a5c8e76c5013543f",
+  "timestamp": {
+    "status": "pending",
+    "late": false,
+    "ots_base64": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEI2fOgk585L5/WfbLdRO3+v2XehLaEtDtzpcjnbFATVD/wEPfe0Dzr1xTQ4e7zbAFVuDEI//AQYvBK5Xeqymajqj96vU5p0gjxICuvLWh58umapcK++oN+kLR6/Q/Zy0XNXnrZGdSnCaEkCPAgH/OciSzjUeVpG4xYXy+TUdzJw7uBr24ZFnhUr0TendMI8SBJoNPNm/brQebfvPKGyV6SBqnF1dpAG3/6CumlQL1BsAjwIAoKYc9gB19KsmNFChrzHn8ZNsE4Hk9mJq3ErEnbbGLMCPAgnzLlnn03zpgtZYAN04VcMarm2RR4WWuqcctaki/xGvII8QRrCi5f8AjGvB6q7aJJ4wCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbf/wCHGbjfbkJV6UCPAgYf9a6WZVaVZ38sQ3qk6pJp7qLKq/zYiIiV0nM+4LqOMI8BAmqOCi00gvFGsj73+sgW4zCPAgoIfWuJo73j9lgi6s+6uaHnaGxMhPHVZ4hPjWUEWnX0QI8CBKRdkOIYjLGVOPbjqx4yIVcyhjy5p3OaLnErtIikxk4wjxBGsKLlzwCBiZLZqgjqBBAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmf/8BDNy/5zfgOCwmSSIAlWcMIjCPEgInIY1nToR+2wzaijqwKwn8armGDH/jNRrPXmdnG6MjMI8QRrCi5g8Ajp7nlkhXLv6ACD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbfAI6VoF+zrx7qwI8CCG9KiY4j/FZopmTIFL/uSFoBpcrOh/4gc6p35OnPWxjgjxIHmXmgyF0VGcm12qPT8atNzwA2mKOKiXRUMteaWLAdy8CPAQg5ffMpdHjxItavlhbUu1ngjwIJhIEd+kZJCo0En9iww/GnFEMBWsF5NKPz7vQphfH6xSCPAgv7BQ6GEYHf5iRhKZOEqr8tU+uRgeq5YK1cJRItON1yEI8CD6/pj+bVWNQZ7LXd9vEMz68H5gnnjtQPDJdcsNIhGfngjxBGsKLl7wCJxhsoe5oNBRAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+    "submitted_at": "2026-11-28T01:29:04.057Z",
+    "calendars": [
+      "https://a.pool.opentimestamps.org",
+      "https://b.pool.opentimestamps.org",
+      "https://a.pool.eternitywall.com",
+      "https://ots.btc.catallaxy.com"
+    ],
+    "refused_calendars": []
+  }
+}
